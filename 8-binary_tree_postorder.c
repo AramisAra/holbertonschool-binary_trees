@@ -2,7 +2,7 @@
 /**
  * binary_tree_postorder - traverses a binary tree using post-order traversal
  * @tree: pointer to the root noed of the tree to traverse
- * @func pointer to a func to call for each node
+ * @func: pointer to a func to call for each node
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
