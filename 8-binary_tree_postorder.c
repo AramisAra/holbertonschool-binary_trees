@@ -4,7 +4,7 @@
  * @tree: pointer to the root noed of the tree to traverse
  * @func pointer to a func to call for each node
  */
-void binary_tree_postorder(const bianry_tree_t *tree, void (*func)(int))
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
 	if (tree && func)
 	{
